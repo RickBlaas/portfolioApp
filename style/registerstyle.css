@@ -1,0 +1,43 @@
+/* Ik zet hier alle automatische margins en padding uit zodat ik zelf
+ specifiek kan meegeven wat ik later wil zonder dat er extra px tussen zitten.
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+/* ik geef in de body mee dat het hele scherm gevuld mag worden
+en dat de register form dus mooi in het midden komt te staan van de pagina.
++ wat mooie kleurtjes. */
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(45deg, blue,red);
+}
+.register {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.register > p {
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+}
+.register form .userinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form  {
+    width: calc(100% / 2 - 20px);
+}
+
+
