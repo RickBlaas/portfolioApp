@@ -82,7 +82,5 @@
 
 
 </body>
-<footer>
 
-</footer>
 </html>
