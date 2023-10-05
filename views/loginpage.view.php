@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="button">
-            <button type="sumbit">Register</button>
+            <button type="submit">Register</button>
         </div>
     </form>
 </div>
@@ -75,7 +75,7 @@
         </div>
 
         <div class="button">
-            <button type="sumbit">Register</button>
+            <button type="submit">Login</button>
         </div>
     </form>
 </div>
