@@ -50,9 +50,15 @@
                 <label for="pwd">Password</label>
                 <input type="password" id="pwd" name="password" placeholder="Enter your password" required>
             </div>
+
+            <div class="input-field">
+                <label for="pwd">Confirm password</label>
+                <input type="password" id="pwd" name="confirm-password" placeholder="Confirm your password" required>
+            </div>
+
         </div>
         <div class="button">
-            <button type="submit">Register</button>
+            <input type="submit" value="Register">
         </div>
     </form>
 </div>
@@ -75,12 +81,11 @@
         </div>
 
         <div class="button">
-            <button type="submit">Login</button>
+            <input type="submit" value="Login">
         </div>
     </form>
 </div>
-
-
 </body>
-
+<footer>
+</footer>
 </html>
