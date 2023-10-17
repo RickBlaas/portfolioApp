@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="password-reset">
-            <p><a href="passwordreset.view.php">Forgot password?</a></p>
+            <p><a href="#">Forgot password?</a></p>
         </div>
 
         <div class="button">
