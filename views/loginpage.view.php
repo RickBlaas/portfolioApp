@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../style/registerstyle.css"/>
     <meta charset="UTF-8">
     <title>Login/Register</title>
+
 </head>
 
 <body>
@@ -37,10 +38,17 @@
                 <input type="password" id="pwd" name="password" placeholder="Enter your password" required>
             </div>
         </div>
+        <div class="password-reset">
+            <p><a href="passwordreset.view.php">Forgot password?</a></p>
+        </div>
 
         <div class="button">
             <input type="submit" value="Login">
         </div>
+
+
+
+
     </form>
 </div>
 </body>
